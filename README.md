@@ -1,6 +1,8 @@
 # occ-symbol
 
-**Parse, validate, and build OCC option symbols.** A tiny, dependency-free TypeScript module that turns the broker-agnostic listed-option string (the OSI symbol) into structured parts — and back again.
+[![npm](https://img.shields.io/npm/v/occ-symbol?logo=npm&label=npm)](https://www.npmjs.com/package/occ-symbol) [![PyPI](https://img.shields.io/pypi/v/occ-symbol?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/occ-symbol/)
+
+**Parse, validate, and build OCC option symbols.** A tiny, dependency-free module that turns the broker-agnostic listed-option string (the OSI symbol) into structured parts — and back again. Available for **JavaScript / TypeScript** (npm) and **Python** (PyPI) with an identical API.
 
 ```ts
 import { parseOccSymbol, formatOccSymbol, isOccSymbol } from "occ-symbol";
@@ -30,8 +32,16 @@ SPY260825C00500000
 
 ## Install
 
+**JavaScript / TypeScript** ([npm](https://www.npmjs.com/package/occ-symbol)):
+
 ```bash
 npm install occ-symbol
+```
+
+**Python** ([PyPI](https://pypi.org/project/occ-symbol/)) — stdlib-only, same API and test cases; docs in [`python/`](python/):
+
+```bash
+pip install occ-symbol
 ```
 
 ## API
