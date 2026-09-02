@@ -2,6 +2,8 @@
 
 [![npm](https://img.shields.io/npm/v/occ-symbol?logo=npm&label=npm)](https://www.npmjs.com/package/occ-symbol) [![PyPI](https://img.shields.io/pypi/v/occ-symbol?logo=pypi&logoColor=white&label=PyPI&color=3775A9)](https://pypi.org/project/occ-symbol/)
 
+> ▶ **[Try it live at occsymbol.com](https://occsymbol.com)** — decode or build any option symbol right in your browser.
+
 **Parse, validate, and build OCC option symbols.** A tiny, dependency-free module that turns the broker-agnostic listed-option string (the OSI symbol) into structured parts — and back again. Available for **JavaScript / TypeScript** (npm) and **Python** (PyPI) with an identical API.
 
 ```ts

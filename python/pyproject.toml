@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "occ-symbol"
-version = "0.1.0"
+version = "0.1.1"
 description = "Parse, validate, and build OCC option symbols — SPY260825C00500000 ⇄ {underlying, expiration, right, strike}. Zero dependencies, stdlib only."
 readme = "README.md"
 requires-python = ">=3.8"
@@ -35,7 +35,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/chiefsmurph/occ-symbol"
+Homepage = "https://occsymbol.com"
+"Live demo" = "https://occsymbol.com"
 Repository = "https://github.com/chiefsmurph/occ-symbol"
 Issues = "https://github.com/chiefsmurph/occ-symbol/issues"
 
